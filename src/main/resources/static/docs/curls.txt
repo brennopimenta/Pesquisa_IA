@@ -1,0 +1,20 @@
+***Upload do Arquivo .xls expostado do Google Forms
+-> Obs: Usar ferramentas para simular Requests HTTp ex:POSTMAN
+
+curl --location 'http://localhost:8080/api/research/analyze' \
+--form 'file=@"postman-cloud:///1f1b3a6c-2173-4580-af90-4e500998ebbb"'
+
+
+*** Acompanhamento do Processamento do Arquivo .xls
+-> Obs: Como resultado do processamento do arquivo .xls, será gerado um ID de pesquisa que será utilizado para acessar o DashBoard com os resultados da pesquisa.
+
+curl --location 'http://localhost:8080/api/research/jobs/70271ad7-5ea3-4f72-a7c0-e6cb050ec34c'
+
+
+*** Apresentação do DashBoard com os resultados da pesquisa
+-> Obs Usar o ID de pesquisa gerado no processamento do arquivo .xls para acessar o DashBoard com os resultados da pesquisa.
+
+curl --location 'http://localhost:8080/api/research/{id}/dashboard'
+
+
+
