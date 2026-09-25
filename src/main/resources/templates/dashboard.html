@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>{{RESEARCH_NAME}}</title>
+
+    <link rel="stylesheet"
+          href="/css/dashboard.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- =========================
+         CABEÇALHO
+         ========================= -->
+
+    <div class="header">
+
+        <div class="header-label">
+            PESQUISA ACADÊMICA
+        </div>
+
+        <h1>
+            {{RESEARCH_NAME}}
+        </h1>
+
+        <div class="subtitle">
+            O uso da Inteligência Artificial na atividade de auditoria:
+            percepção de profissionais da contabilidade sobre benefícios,
+            riscos e transformação das atividades profissionais.
+        </div>
+
+        <div class="header-info">
+
+            <div class="date">
+                <strong>Data da pesquisa:</strong>
+                {{RESEARCH_DATE}}
+            </div>
+
+            <div class="date">
+                <strong>Status:</strong>
+                {{RESEARCH_STATUS}}
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         INDICADORES PRINCIPAIS
+         ========================= -->
+
+    <div class="cards">
+
+        <div class="card">
+
+            <div class="card-title">
+                Participantes
+            </div>
+
+            <div class="card-value">
+                {{TOTAL_RESPONSES}}
+            </div>
+
+            <div class="card-description">
+                respostas analisadas
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-title">
+                Percepção geral sobre IA
+            </div>
+
+            <div class="card-value">
+                {{OVERALL_PERCEPTION}}
+            </div>
+
+            <div class="card-description">
+                média dos itens de percepção
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-title">
+                Média de eficiência
+            </div>
+
+            <div class="card-value">
+                {{AVERAGE_EFFICIENCY}}
+            </div>
+
+            <div class="card-description">
+                avaliação dos participantes
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-title">
+                Média de confiança
+            </div>
+
+            <div class="card-value">
+                {{AVERAGE_CONFIDENCE}}
+            </div>
+
+            <div class="card-description">
+                confiança no uso da IA
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         PERFIL
+         ========================= -->
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <h2>
+                Perfil dos participantes
+            </h2>
+
+            <p>
+                Caracterização profissional dos participantes da pesquisa.
+            </p>
+
+        </div>
+
+        <div class="grid">
+
+            <div>
+
+                <h3>
+                    Experiência profissional
+                </h3>
+
+                {{EXPERIENCE_DISTRIBUTION}}
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Área principal de atuação
+                </h3>
+
+                {{MAIN_AREA_DISTRIBUTION}}
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         UTILIZAÇÃO DE IA
+         ========================= -->
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <h2>
+                Utilização de Inteligência Artificial
+            </h2>
+
+            <p>
+                Frequência, ferramentas e finalidades relacionadas
+                ao uso de Inteligência Artificial pelos participantes.
+            </p>
+
+        </div>
+
+        <div class="grid">
+
+            <div>
+
+                <h3>
+                    Frequência de utilização
+                </h3>
+
+                {{USAGE_FREQUENCY}}
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Ferramentas utilizadas
+                </h3>
+
+                {{AI_TOOLS}}
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Finalidade de utilização
+                </h3>
+
+                {{USAGE_PURPOSE}}
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         PERCEPÇÃO SOBRE IA
+         ========================= -->
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <h2>
+                Percepção sobre Inteligência Artificial
+            </h2>
+
+            <p>
+                Médias obtidas nos itens relacionados à percepção
+                dos participantes sobre o uso da IA na auditoria.
+            </p>
+
+        </div>
+
+        <div class="perception">
+
+            {{PERCEPTION}}
+
+        </div>
+
+        <div class="methodology-box">
+
+            <strong>Interpretação:</strong>
+
+            os valores representam médias das respostas aos
+            respectivos itens do instrumento de pesquisa.
+            A percepção geral corresponde à média dos dez
+            itens considerados neste painel.
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         RISCOS E IMPACTOS
+         ========================= -->
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <h2>
+                Riscos e impactos percebidos
+            </h2>
+
+            <p>
+                Percepções dos participantes sobre riscos,
+                impactos futuros e atividades adequadas ao
+                uso de Inteligência Artificial.
+            </p>
+
+        </div>
+
+        <div class="grid">
+
+            <div>
+
+                <h3>
+                    Riscos percebidos
+                </h3>
+
+                {{PERCEIVED_RISKS}}
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Impacto futuro
+                </h3>
+
+                {{FUTURE_IMPACT}}
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Atividades adequadas ao uso de IA
+                </h3>
+
+                {{SUITABLE_ACTIVITIES}}
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         ANÁLISE QUALITATIVA
+         ========================= -->
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <h2>
+                Análise qualitativa das respostas abertas
+            </h2>
+
+            <p>
+                Classificação das respostas abertas segundo a
+                taxonomia previamente definida para a pesquisa.
+            </p>
+
+        </div>
+
+
+        <div class="methodology-box">
+
+            <strong>Metodologia da classificação:</strong>
+
+            as respostas abertas foram analisadas por um modelo
+            de Inteligência Artificial generativa utilizando
+            exclusivamente as categorias previamente definidas
+            na taxonomia da pesquisa.
+
+            <br><br>
+
+            A classificação é <strong>multilabel</strong>.
+            Portanto, uma mesma resposta pode pertencer a
+            mais de uma categoria dentro de uma dimensão.
+
+            <br><br>
+
+            Os percentuais apresentados nas classificações
+            qualitativas representam a proporção de participantes
+            classificados em cada categoria em relação ao total
+            de participantes.
+
+        </div>
+
+
+        <div class="qualitative-grid">
+
+            <!-- ATIVIDADES -->
+
+            <div class="qualitative-card">
+
+                <h3>
+                    Atividades de auditoria
+                </h3>
+
+                <p class="qualitative-description">
+                    Atividades nas quais os participantes identificaram
+                    possibilidade de utilização da IA.
+                </p>
+
+                {{QUAL_ACTIVITIES}}
+
+            </div>
+
+
+            <!-- BENEFÍCIOS -->
+
+            <div class="qualitative-card">
+
+                <h3>
+                    Benefícios
+                </h3>
+
+                <p class="qualitative-description">
+                    Benefícios associados ao uso da Inteligência
+                    Artificial na atividade de auditoria.
+                </p>
+
+                {{QUAL_BENEFITS}}
+
+            </div>
+
+
+            <!-- RISCOS -->
+
+            <div class="qualitative-card">
+
+                <h3>
+                    Riscos
+                </h3>
+
+                <p class="qualitative-description">
+                    Riscos e limitações associados ao uso da
+                    Inteligência Artificial.
+                </p>
+
+                {{QUAL_RISKS}}
+
+            </div>
+
+
+            <!-- NÃO DELEGAÇÃO -->
+
+            <div class="qualitative-card">
+
+                <h3>
+                    Atividades que não devem ser delegadas
+                </h3>
+
+                <p class="qualitative-description">
+                    Atividades nas quais os participantes indicaram
+                    necessidade de manutenção da atuação humana.
+                </p>
+
+                {{QUAL_NON_DELEGATION_ACTIVITIES}}
+
+            </div>
+
+
+            <!-- MOTIVOS -->
+
+            <div class="qualitative-card">
+
+                <h3>
+                    Motivos para não delegação
+                </h3>
+
+                <p class="qualitative-description">
+                    Motivos associados à necessidade de manutenção
+                    da participação humana.
+                </p>
+
+                {{QUAL_NON_DELEGATION_REASONS}}
+
+            </div>
+
+
+            <!-- FUTURO -->
+
+            <div class="qualitative-card">
+
+                <h3>
+                    Perspectivas para o futuro
+                </h3>
+
+                <p class="qualitative-description">
+                    Cenários de transformação profissional relacionados
+                    ao uso futuro da Inteligência Artificial.
+                </p>
+
+                {{QUAL_FUTURE}}
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         OBSERVAÇÕES METODOLÓGICAS
+         ========================= -->
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <h2>
+                Observações metodológicas
+            </h2>
+
+        </div>
+
+        <div class="note">
+
+            <p>
+                <strong>Dados quantitativos:</strong>
+                os resultados apresentados nas seções de perfil,
+                utilização e percepção são calculados a partir
+                das respostas coletadas no questionário.
+            </p>
+
+            <p>
+                <strong>Percepção sobre IA:</strong>
+                a percepção geral apresentada neste painel
+                corresponde à média dos dez itens de percepção
+                utilizados no instrumento de pesquisa. Esse cálculo
+                representa uma medida descritiva da amostra e não
+                constitui, por si só, uma escala psicométrica
+                validada.
+            </p>
+
+            <p>
+                <strong>Análise qualitativa:</strong>
+                as respostas abertas foram classificadas segundo
+                uma taxonomia predefinida, composta por categorias
+                específicas para atividades, benefícios, riscos,
+                atividades não delegáveis, motivos para não
+                delegação e perspectivas futuras.
+            </p>
+
+            <p>
+                <strong>Classificação multilabel:</strong>
+                uma mesma resposta pode receber mais de uma
+                categoria dentro de uma dimensão. Por esse motivo,
+                os percentuais apresentados nas classificações
+                qualitativas não necessariamente totalizam 100%.
+            </p>
+
+            <p>
+                <strong>Inteligência Artificial:</strong>
+                a classificação qualitativa foi realizada utilizando
+                um modelo de Inteligência Artificial generativa,
+                seguindo exclusivamente as categorias previamente
+                definidas na taxonomia da pesquisa.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         RODAPÉ
+         ========================= -->
+
+    <div class="footer">
+
+        Pesquisa IA — Dashboard de resultados
+
+        <br>
+
+        Gerado em {{GENERATED_AT}}
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

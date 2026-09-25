@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: pesquisa-ia
+  ai:
+    google:
+      genai:
+        api-key: ${GOOGLE_API_KEY}
+        chat:
+          options:
+            model: gemini-3.5-flash-lite
+            temperature: 0.0
+
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${_DATABASE_ENDPOINT:localhost}:${MYSQL_PORT:3306}/${_DATABASE_SCHEMA:PESQUISA_IA}
+    username: ${_DATABASE_USER:root}
+    password: ${_DATABASE_PASSWORD:root}
+
+  jpa:
+    open-in-view: false
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        format_sql: false
+
+  flyway:
+    url: jdbc:mysql://${_DATABASE_ENDPOINT:localhost}:${MYSQL_PORT:3306}/${_DATABASE_SCHEMA:PESQUISA_IA}
+    schemas: ${_DATABASE_SCHEMA:PESQUISA_IA}
+    user: ${_DATABASE_USER:root}
+    password: ${_DATABASE_PASSWORD:root}
+    locations: classpath:/db/migration
+    baseline-on-migrate: true
+    placeholders:
+      schema: ${_DATABASE_SCHEMA:PESQUISA_IA}

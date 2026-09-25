@@ -1,0 +1,159 @@
+Taxonomia proposta
+
+Vamos trabalhar com 5 dimensões independentes, correspondentes às cinco perguntas abertas do questionário.
+
+1. Atividades de auditoria que podem ser apoiadas pela IA
+Pergunta:
+Quais atividades de auditoria poderiam ser apoiadas ou realizadas com auxílio de Inteligência Artificial?
+
+Código	Categoria	Definição
+AT01	Análise documental	Leitura, interpretação e comparação de documentos, notas fiscais, relatórios e outros registros
+AT02	Análise contratual	Análise de contratos, cláusulas, obrigações, condições e inconsistências
+AT03	Análise de dados	Processamento de grandes volumes de dados contábeis, financeiros ou operacionais
+AT04	Detecção de anomalias	Identificação de valores, transações ou comportamentos fora de padrões esperados
+AT05	Identificação de fraudes	Apoio à identificação de indícios ou padrões associados a possíveis fraudes
+AT06	Conciliação e conferência	Comparação entre registros, documentos, saldos e bases distintas
+AT07	Avaliação de riscos	Identificação, classificação ou priorização de riscos de auditoria
+AT08	Testes de auditoria	Apoio à seleção, execução ou análise de testes e procedimentos de auditoria
+AT09	Geração de relatórios	Produção, organização ou sumarização de relatórios e papéis de trabalho
+AT10	Pesquisa e consulta	Pesquisa de normas, legislação, pronunciamentos e informações técnicas
+AT11	Planejamento da auditoria	Apoio à definição de procedimentos, prioridades, amostras ou planejamento
+AT12	Outra atividade	Resposta relacionada à auditoria que não se enquadra nas categorias anteriores
+
+
+2. Benefícios percebidos da IA
+Pergunta:
+Quais seriam os principais benefícios do uso de IA na atividade de auditoria?
+
+Código	Categoria	Definição
+BE01	Ganho de produtividade	Realização de maior quantidade de trabalho ou aumento da produtividade
+BE02	Redução de tempo	Redução do tempo necessário para executar determinada atividade
+BE03	Automação	Automatização de tarefas repetitivas ou operacionais
+BE04	Análise de grandes volumes	Capacidade de processar grandes quantidades de informações
+BE05	Detecção de padrões/anomalias	Capacidade de identificar padrões, desvios ou comportamentos incomuns
+BE06	Apoio à qualidade	Potencial melhoria na qualidade ou consistência dos procedimentos
+BE07	Apoio à tomada de decisão	Fornecimento de informações para apoiar o julgamento profissional
+BE08	Redução de erros operacionais	Redução de erros decorrentes de tarefas manuais ou repetitivas
+BE09	Acesso à informação	Facilitação da pesquisa, consulta e obtenção de informações
+BE10	Capacitação profissional	Desenvolvimento de novas competências ou conhecimentos profissionais
+BE11	Nenhum benefício identificado	Respondente não identifica benefícios relevantes
+BE12	Outro benefício	Benefício não contemplado nas categorias anteriores
+
+
+3. Riscos e limitações
+Pergunta:
+Quais são os principais riscos ou limitações do uso de IA na auditoria?
+
+Esta é uma das dimensões mais importantes do artigo.
+Código	Categoria	Definição
+RI01	Erros/inexatidão	Resultados incorretos ou informações inadequadas produzidas pela IA
+RI02	Alucinação	Geração de informações aparentemente plausíveis, mas inexistentes ou incorretas
+RI03	Privacidade de dados	Risco relacionado ao tratamento ou exposição de informações pessoais
+RI04	Segurança da informação	Riscos de acesso indevido, vazamento ou comprometimento de dados
+RI05	Confidencialidade	Risco relacionado ao tratamento de informações sigilosas do cliente
+RI06	Dependência tecnológica	Dependência excessiva das ferramentas ou sistemas de IA
+RI07	Falta de transparência	Dificuldade de compreender como a IA chegou a determinado resultado
+RI08	Viés algorítmico	Possibilidade de resultados influenciados por vieses presentes nos dados ou modelos
+RI09	Falta de julgamento profissional	Risco de substituir indevidamente o julgamento e a experiência do auditor
+RI10	Responsabilidade profissional	Dificuldade de definir responsabilidade por decisões ou resultados produzidos com IA
+RI11	Falta de conhecimento	Insuficiência de capacitação dos profissionais para utilizar IA adequadamente
+RI12	Confiabilidade dos resultados	Necessidade de validação e verificação dos resultados produzidos
+RI13	Questões éticas	Problemas relacionados a ética profissional, uso responsável ou integridade
+RI14	Conformidade/regulação	Questões relacionadas a normas, legislação ou regulamentação
+RI15	Custo/infraestrutura	Custos financeiros, tecnológicos ou estruturais para implementação
+RI16	Resistência à mudança	Dificuldade de adoção por profissionais ou organizações
+RI17	Outro risco/limitação	Risco não contemplado nas categorias anteriores
+
+4. Atividades que não deveriam ser delegadas integralmente à IA
+Pergunta:
+Existe alguma atividade de auditoria que não deveria ser delegada à IA? Qual e por quê?
+
+4.1 Tipo de atividade
+Código	Categoria
+ND01	Julgamento profissional
+ND02	Conclusão/opinião de auditoria
+ND03	Avaliação de riscos críticos
+ND04	Decisões sobre materialidade
+ND05	Avaliação de evidências
+ND06	Comunicação com cliente
+ND07	Investigação de situações complexas
+ND08	Responsabilidade e assinatura profissional
+ND09	Atividades envolvendo aspectos éticos
+ND10	Nenhuma atividade identificada
+ND11	Outra
+
+
+4.2 Motivo da não delegação
+Código	Motivo
+MN01	Necessidade de julgamento profissional
+MN02	Responsabilidade profissional
+MN03	Complexidade/contexto
+MN04	Questões éticas
+MN05	Necessidade de interpretação humana
+MN06	Risco de erro
+MN07	Necessidade de interação humana
+MN08	Confidencialidade/sensibilidade
+MN09	Exigência normativa/regulatória
+MN10	Outro motivo
+
+
+5. Futuro da relação entre auditor e IA
+Pergunta:
+Como você imagina a relação entre o auditor e a Inteligência Artificial no futuro?
+
+Código	Categoria	Definição
+FU01	IA como ferramenta de apoio	IA utilizada como instrumento auxiliar do auditor
+FU02	Colaboração humano-IA	Auditor e IA trabalhando conjuntamente
+FU03	Automação de tarefas operacionais	IA assumindo tarefas repetitivas e operacionais
+FU04	Transformação das competências	Mudança nas habilidades exigidas dos profissionais
+FU05	Maior foco analítico	Auditor direcionando mais tempo para análise e interpretação
+FU06	Manutenção da supervisão humana	Necessidade de revisão e supervisão dos resultados da IA
+FU07	Substituição parcial de atividades	IA assumindo parte das atividades atualmente executadas por humanos
+FU08	Substituição ampla do trabalho	Respondente prevê substituição significativa do trabalho humano
+FU09	Novos papéis profissionais	Surgimento ou fortalecimento de novas funções relacionadas à IA
+FU10	Incerteza	Respondente demonstra não saber como será essa relação
+FU11	Outro cenário	Perspectiva não contemplada
+
+=================================================================================
+Estrutura Final da TAXONOMIA
+
+RESPOSTA ABERTA
+│
+├── Atividades
+│   ├── AT01 Análise documental
+│   ├── AT02 Análise contratual
+│   ├── AT03 Análise de dados
+│   ├── ...
+│   └── AT12 Outra
+│
+├── Benefícios
+│   ├── BE01 Ganho de produtividade
+│   ├── BE02 Redução de tempo
+│   ├── BE03 Automação
+│   ├── ...
+│   └── BE12 Outro
+│
+├── Riscos
+│   ├── RI01 Erros/inexatidão
+│   ├── RI02 Alucinação
+│   ├── RI03 Privacidade
+│   ├── ...
+│   └── RI17 Outro
+│
+├── Não delegação
+│   ├── Atividade
+│   │   ├── ND01 Julgamento profissional
+│   │   ├── ND02 Conclusão/opinião
+│   │   └── ...
+│   │
+│   └── Motivo
+│       ├── MN01 Julgamento
+│       ├── MN02 Responsabilidade
+│       └── ...
+│
+└── Futuro
+    ├── FU01 Ferramenta de apoio
+    ├── FU02 Colaboração humano-IA
+    ├── FU03 Automação
+    ├── ...
+    └── FU11 Outro
